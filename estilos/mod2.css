@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 5px;
+}
+
+.cuerpo{
+    background: darkcyan;
+}
+.navbar{
+   font-size: 18px;
+   font-family: 'Courier New', Courier, monospace;
+   box-shadow: rgb(rgb(107, 58, 58), rgb(62, 100, 62), rgb(36, 36, 83)) 15px 15px;
+   border-radius: 15px;
+}
+
+.navbar ul{
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+gap: 20px;
+}
+
+
+.navbar ul li{
+    position: relative;
+    border-radius: 15px;
+    background-color: brown;
+    
+}
+
+.navbar ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    list-style: none;
+    margin: 0;
+    display: none;
+    box-shadow: 0 4px rgba(74, 54, 54, 0);
+}
+
+.navbar ul li ul li{
+
+}
+
+.navbar ul li:hover{
+    background-color: aquamarine;
+    transition: .3s ease;
+    transform: scale(1.1);
+}
+
+.navbar ul li:hover ul{
+    display: block;
+}

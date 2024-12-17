@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font:bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  
+}
+
+h2{
+    font-weight: bold;
+    font-style: italic;
+}
+
+body{
+    text-align: center;
+    background-color: #7ca5e2;
+}
+
+#cuerpo{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+   
+    
+}
+
+#encabezado{
+    background: #6b8a96;
+    border: 1px solid #999999;
+    padding: 20px;
+    border-bottom: #006699;
+
+   
+}
+
+
+#bloque1{
+  
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    clip-path: circle(35%);
+    transition: .3s ease; 
+}
+
+
+
+#bloque1:hover{
+    clip-path: (38%);
+    scale: 1.02;;
+  
+}
+
+.titulo{
+ 
+    border-style: dotted;
+    border: 300x;
+    text-shadow: rgb(158, 39, 82) 2px 2px 2px;
+  
+    
+}
+
+#menu{
+    
+    margin: 4px;
+    background: #cccccc;
+    padding: 18px;
+    background: -webkit-linear-gradient(top,#ffffff, #006699);
+    background: -moz-linear-gradient(top,#ffffff, #006699);
+    border-radius: 15px;
+  
+
+
+}
+
+
+.nav-enlace{
+    background: #1215bd;
+    color: #cccccc;
+    margin: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(62, 80, 152) 5px 5px;
+    -webkit-box-shadow:rgb(150,150,150)5px 5px;
+    box-shadow: rgb(85, 89, 167) 5px 5px;
+}
+
+.nav-enlace:hover{
+
+    background: green;
+}
+#seccion{
+    float:left;
+    width: 660px;
+    margin: 20px;
+
+}
+
+#cadena1{
+    clip-path: circle(30%);
+    width: 600px;
+    transition: .3s;
+}
+
+#cadena1:hover{
+    transform: scale(0.9); /*reduce el formato al 90%*/
+}
+
+
+article{
+    background: rgb(86, 111, 204);
+    border: 1 px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(150,150,150,150) 5px 5px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+}
+
+#texto1{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+
+}
+
+#texto2{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#bitcoin{
+    width: 60px;
+    float: inline-end;
+    clip-path: circle();
+}
+
+#texto3{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#glosario{
+    padding: 15px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+article h2{
+    text-decoration: underline;
+}
+
+article footer{
+    text-align: right;
+}
+
+#lateral{
+    float: right;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #2d498c;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(62, 80, 152) 5px 5px;
+    -webkit-box-shadow:rgb(150,150,150)5px 5px;
+    box-shadow: rgb(58, 61, 118) 5px 5px;
+}
+
+table{
+    text-shadow: #369 2px 2px 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.boton{
+    border-radius: 10px;
+
+
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #999999;
+}
+
+
